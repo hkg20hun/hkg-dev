@@ -1,0 +1,12 @@
+*{
+    background: url(/képek/bg.png);
+    
+}
+
+logo {
+    position: absolute;
+    display: flex;
+    margin: 0;
+    padding: auto;
+    left: 11;
+}
