@@ -1,6 +1,9 @@
 *{
     background: url(/képek/bg.png);
-    
+    position: absolute;
+    display: flex;
+    margin: 0;
+    padding: auto;
 }
 
 logo {
@@ -10,3 +13,6 @@ logo {
     padding: auto;
     left: 11;
 }
+
+
+
