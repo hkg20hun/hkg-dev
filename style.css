@@ -1,18 +1,51 @@
-*{
-    background: url(/képek/bg.png);
-    position: absolute;
-    display: flex;
+body {
+    font-family: Arial, sans-serif;
     margin: 0;
-    padding: auto;
+    padding: 0;
+    background-color: #f4f4f4;
 }
 
-logo {
-    position: absolute;
-    display: flex;
-    margin: 0;
-    padding: auto;
-    left: 11;
+header {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
 }
 
+main {
+    padding: 20px;
+}
+
+h2 {
+    color: #333;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin: 10px 0;
+}
+
+a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #333;
+    color: #fff;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
 
 
